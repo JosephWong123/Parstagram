@@ -18,6 +18,7 @@
 		440BFAD72282BB9F008310C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BFAD62282BB9F008310C2 /* LoginViewController.swift */; };
 		440BFAD92282C551008310C2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BFAD82282C551008310C2 /* CameraViewController.swift */; };
 		440BFADD2283623D008310C2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BFADC2283623D008310C2 /* PostCell.swift */; };
+		446F76C7228F802D008C4BB8 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F76C6228F802D008C4BB8 /* CommentCell.swift */; };
 		6FB755C2F6712CF2AF81387D /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1258D7F68D148F581D08FC /* Pods_Parstagram.framework */; };
 		805DB300F2B6D92F97F7781B /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E45AD03C7FB9480DC2EDF5 /* Pods_ParstagramTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		440BFAD62282BB9F008310C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		440BFAD82282C551008310C2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		440BFADC2283623D008310C2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = /Users/josephwong/Documents/Parstagram/Parstagram/PostCell.swift; sourceTree = "<absolute>"; };
+		446F76C6228F802D008C4BB8 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		45460DACED36C371A3D7C093 /* Pods-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57EF6CA777466AF849DDE04E /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		5B1258D7F68D148F581D08FC /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 				440BFAAF2282B5FD008310C2 /* Assets.xcassets */,
 				440BFAB12282B5FD008310C2 /* LaunchScreen.storyboard */,
 				440BFAB42282B5FD008310C2 /* Info.plist */,
+				446F76C6228F802D008C4BB8 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -370,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				440BFAAB2282B5FB008310C2 /* FeedViewController.swift in Sources */,
 				440BFAA92282B5FB008310C2 /* AppDelegate.swift in Sources */,
 				440BFADD2283623D008310C2 /* PostCell.swift in Sources */,
+				446F76C7228F802D008C4BB8 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
